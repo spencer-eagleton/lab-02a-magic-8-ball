@@ -6,4 +6,4 @@ export const answers = [
     'Think about what you just asked, go sit in time out and then ask again',
     'Well duh...', 
     'Worst question I\'ve heard all week. I don\'t get paid enough for this'
-]
+];
