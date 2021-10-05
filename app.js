@@ -1,15 +1,7 @@
 // import functions and grab DOM elements
-const answers = [
-    'Awful question- I refuse to Answer',
-    'Yes, but how embarassing for you',
-    'If you have to ask, then it\'s obviously no',
-    'Well since you put it like that... no lol',
-    'Think about what you just asked, go sit in time out and then ask again',
-    'Well duh...', 
-    'Worst question I\'ve heard all week. I don\'t get paid enough for this'
-];
+import { answers } from './answers.js';
 // const question = document.getElementById('question');
-const answer = document.getElementById('answer');
+// const answer = document.getElementById('answer');
 const button = document.getElementById('button');
 // initialize global state
 
@@ -22,9 +14,10 @@ const getRandomNumber = (max)=>{
 // set event listeners 
 button.addEventListener('click', ()=> {
     const randomAnswer = getRandomNumber(answers.length);
-    console.log(answers[randomAnswer]);
+    
 
-
+    const answer = document.getElementById('answer');
+    answer.textContent = answers[randomAnswer];
 
 });
 
