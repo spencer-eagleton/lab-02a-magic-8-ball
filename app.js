@@ -1,8 +1,8 @@
 // import functions and grab DOM elements
 import { answers } from './answers.js';
-// const question = document.getElementById('question');
-// const answer = document.getElementById('answer');
+
 const button = document.getElementById('button');
+
 // initialize global state
 
 const getRandomNumber = (max)=>{
@@ -18,6 +18,8 @@ button.addEventListener('click', ()=> {
 
     const answer = document.getElementById('answer');
     answer.textContent = answers[randomAnswer];
+
+    
 
 });
 
