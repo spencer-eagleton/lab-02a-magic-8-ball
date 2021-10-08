@@ -7,7 +7,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(/assets/4356746a4fb0b09c4b06dd3ca19d9fe0.gif);
+    background-image: url(./assets/4356746a4fb0b09c4b06dd3ca19d9fe0.gif);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
